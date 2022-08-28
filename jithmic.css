@@ -1,0 +1,211 @@
+/* Main Page Styles*/
+.container-fluid {
+    padding: 0 50px !important;
+    
+}
+.main-outer {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    overflow: auto;
+}
+
+.left {
+    width: 280px;
+    height: 100vh;
+    background-color: #778ca3;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+}
+
+.left::-webkit-scrollbar {
+    width: 8px;
+}
+
+.left::-webkit-scrollbar-thumb {
+    background-color: #2c3e50;
+}
+
+.right {
+    height: 100%;
+    flex: 1;
+}
+
+/*left-side*/
+
+
+/*profile-image*/
+
+.profile-pic-outer {
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic-container {
+    height: 180px;
+    width: 180px;
+    background: url("https://st3.depositphotos.com/9970522/12733/i/950/depositphotos_127337686-stock-photo-female-software-developer-working-on.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+/*profile-image*/
+
+
+/*nav bar*/
+
+.nav-outer {
+    width: 100%;
+    height: auto;
+}
+
+.developer-name {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.designation-text {
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing:0;
+    font-weight:bold;
+    font-size: 15px;
+}
+
+.occupation {
+    color: #182C61;
+}
+
+.region{
+    color: white;
+}
+
+.nav-bar {
+    width: 100%;
+    list-style: none;
+    margin: 50px 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.nav-bar li a {
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #34495e;
+}
+
+/*nav bar*/
+
+/*footer styles*/
+.footer p {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer-copy-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/*footer styles*/
+
+/*left-side*/
+
+
+/*right-side*/
+
+.slider-outer {
+    width: 100%;
+    height: 100vh;
+}
+
+.slider-outer-image {
+    width: 100%;
+    height: 100%;
+    background: url("https://images.pexels.com/photos/7605973/pexels-photo-7605973.jpeg?cs=srgb&dl=pexels-mart-production-7605973.jpg&fm=jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.slider-inner-content {
+    padding: 0 70px;
+}
+
+.slider-developer-name {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+.wrap{
+   width: 50px;
+   height: 50px;
+   border: 1px;
+   margin-right: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.wrap:hover{
+   cursor: pointer;
+   color: white;
+}
+.wrap:last-child{
+   margin-right: 0;
+}
+/*--Info--*/
+
+.info td{
+      font-family: 'Maven Pro', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      color: white;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.slider-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.social-media{
+   display: flex;
+   align-items: center;
+   justify-content: left;
+}
+.general{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
+.button-slider {
+    width: 150px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: #95a5a6;
+    color: black;
+
+}
+.button-slider:hover{
+   cursor: pointer;
+   color: white;
+}
